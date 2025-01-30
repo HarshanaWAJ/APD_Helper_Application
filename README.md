@@ -28,6 +28,8 @@ python -m venv ml_env
 ### Install Required Libraries
 ```bash
     pip install speechrecognition pydub noisereduce numpy opencv-python mediapipe tensorflow streamlit flask
+    pip install imageio[ffmpeg]
+    pip install flask-cors
 ```
 
 ### Frontend Initialization 
@@ -39,6 +41,11 @@ python -m venv ml_env
     npm start
 ```
 
+### Server Initialization
+```bash
+    cd APD_Helper_Application/server
+    npm install
+```
 ### Run the backend
 ```bash
     python backend/app.py

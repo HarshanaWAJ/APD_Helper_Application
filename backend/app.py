@@ -16,7 +16,7 @@ def handle_voice_to_voice():
     input_file = request.files["audio"]
     input_file.save("input.wav")
     improve_audio_quality("input.wav", "output.wav")
-    return #send_file("output.wav", as_attachment=True)
+    return send_file("output.wav", as_attachment=True)
 
 if __name__ == "__main__":
     app.run(debug=True)
