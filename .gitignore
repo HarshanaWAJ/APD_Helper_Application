@@ -1,2 +1,4 @@
 ml_env/
 model/
+client/node_modules/
+backend/__pycache__

@@ -32,9 +32,19 @@ python -m venv ml_env
 
 ### Frontend Initialization 
 ```bash
-    cd APD_Helper_Application/frontend
+    cd APD_Helper_Application/client
 
     npm install
 
+    npm start
+```
+
+### Run the backend
+```bash
+    python backend/app.py
+```
+
+### Run the frontend
+```bash
     npm start
 ```
