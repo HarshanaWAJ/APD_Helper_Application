@@ -3,3 +3,4 @@ model/
 client/node_modules/
 backend/__pycache__
 server/node_modules/
+server/.env
