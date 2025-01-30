@@ -18,4 +18,14 @@ cd APD_Helper_Application
 
 python -m venv ml_env
 
-.\ml_env\Scripts\activate
+- On Windows
+    .\ml_env\Scripts\activate
+
+- On Mac/Linux
+    source apd_env/bin/activate
+
+```
+### Install Required Libraries
+```bash
+    pip install speechrecognition pydub noisereduce numpy opencv-python mediapipe tensorflow streamlit flask
+```
