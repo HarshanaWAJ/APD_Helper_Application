@@ -29,3 +29,12 @@ python -m venv ml_env
 ```bash
     pip install speechrecognition pydub noisereduce numpy opencv-python mediapipe tensorflow streamlit flask
 ```
+
+### Frontend Initialization 
+```bash
+    cd APD_Helper_Application/frontend
+
+    npm install
+
+    npm start
+```
