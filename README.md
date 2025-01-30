@@ -12,6 +12,10 @@ This section contains the List of prerequisites needed to run this project
 To clone the project, run:
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/HarshanaWAJ/APD_Helper_Application.git
 
-cd 
+cd APD_Helper_Application
+
+python -m venv ml_env
+
+.\ml_env\Scripts\activate
